@@ -21,6 +21,7 @@ class Resources {
 
   Widget customLogo = Container(
     child: Row(
+      mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
         Text(
           'TECH',
@@ -34,7 +35,7 @@ class Resources {
         Text(
           '2',
           style: TextStyle(
-            color: Colors.yellow,
+            color: Colors.yellow[700],
             fontSize: 18,
             fontFamily: 'Roboto',
             fontWeight: FontWeight.w700,
